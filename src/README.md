@@ -47,6 +47,9 @@ The mixed strategy proved to be highly effective and robust across all test case
 
 * **Performance:** The solution consistently beats the baseline. The mathematical split strategy is extremely fast for high beta values, while the memetic algorithm provides high-quality solutions for complex routing problems within a reasonable execution time.
 
+We can see that the improvement to solutions nearest to $\beta$ = 1 are close to zero, probably because the problem becomes linear and it seems like a TSP, so we can assume that the performance of baseline are worster on situations different to linear problems.
+
+
 ---
 
 ## 4. Possible Future Improvements
